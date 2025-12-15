@@ -3,27 +3,19 @@ import java.util.Scanner;
 public class BubbleSort {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        // Input array size
-        System.out.print("Enter the number of elements (n): ");
+        System.out.print("Enter the number of elements (n): "); // Input array size
         int n = scanner.nextInt();
         
-        // Input array elements
-        int[] arr = new int[n];
+        int[] arr = new int[n];  // Input array elements
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
-        
-        // Perform bubble sort
-        bubbleSort(arr);
-        
-        // Print sorted array
-        System.out.println("Sorted array:");
+        bubbleSort(arr);    // Perform bubble sort
+        System.out.println("Sorted array:");   // Print sorted array
         for (int num : arr) {
             System.out.print(num + " ");
         }
-        
         scanner.close();
     }
     
@@ -42,7 +34,6 @@ public class BubbleSort {
                     swapped = true;
                 }
             }
-            
             // If no swapping occurred, array is already sorted
             if (!swapped) {
                 System.out.println("Early termination: Array is already sorted.");
