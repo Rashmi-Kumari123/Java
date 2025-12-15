@@ -37,8 +37,6 @@ public class Stack {
 
     public boolean isFull(){
         return top == stackArray.length -1;
-    }
-
-    
+    } 
 
 }
