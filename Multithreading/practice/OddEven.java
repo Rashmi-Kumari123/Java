@@ -4,7 +4,6 @@ public class OddEven {
     public static int count = 1;
     public static final int MAX_COUNT = 10; // You can change this to print more numbers
     
-    
     synchronized public void printEven() {
         while (count <= MAX_COUNT) {
             if (count % 2 == 0){
@@ -15,7 +14,6 @@ public class OddEven {
                 try {
                     wait();
                 } catch (InterruptedException e) {
-                    
                     e.printStackTrace();
                 }
             }
@@ -32,7 +30,6 @@ public class OddEven {
                 try {
                     wait();
                 } catch (InterruptedException e) {
-                    
                     e.printStackTrace();
                 }
             }
