@@ -15,7 +15,7 @@ public class DeadlockDemo {
                 try {
                     Thread.sleep(100);
                 } catch (Exception e) {}
-                synchronized (lock2) {
+                    synchronized (lock2) {
                     System.out.println("Thread 1: Has lock2");
                 }
             }
