@@ -13,7 +13,7 @@ class SharedBuffer {
                 Thread.currentThread().interrupt();
             }
         }
-        
+
         // Produce data
         data = value;
         isProduced = true;
