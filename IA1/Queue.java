@@ -12,7 +12,6 @@ public class Queue {
         front = -1;
         rear = -1;
         count = 0;
-
     }
     public boolean isFull() {
         return (count == capacity);
