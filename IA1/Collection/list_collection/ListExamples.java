@@ -46,7 +46,7 @@ public class ListExamples {
         for (String item : arrayList) {
             System.out.println(item);
         }
-        
+            
         // Using Iterator
         System.out.println("\nUsing Iterator:");
         Iterator<String> iterator = arrayList.iterator();
@@ -75,7 +75,7 @@ public class ListExamples {
         Stack<String> stack = new Stack<>();
         stack.push("First");
         stack.push("Second");
-        stack.push("Third");
+        stack.push("Third"); 
         System.out.println("Stack: " + stack);
         System.out.println("Popped element: " + stack.pop());
         System.out.println("Stack after pop: " + stack);
