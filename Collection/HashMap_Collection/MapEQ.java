@@ -1,4 +1,5 @@
 import java.util.*;
+// This code demonstrates HashMap key equality, the importance of overriding both equals() and hashCode(), and the danger of using == for String comparison.
 
 class MapEQ {
     public static void main(String[] args) {
