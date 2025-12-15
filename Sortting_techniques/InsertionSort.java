@@ -28,11 +28,8 @@ public class InsertionSort {
         }
         
         System.out.println("Original array: " + Arrays.toString(arr));
-        
         insertionSort(arr, n);
-        
         System.out.println("Sorted array: " + Arrays.toString(arr));
-        
         scanner.close();
     }
 }
