@@ -27,7 +27,6 @@ class FileHandling {
             FileReader reader = new FileReader("abc.text");
             while ((i = reader.read()) != -1) {
                 System.out.println((char) i);
-
             }
             reader.close();
 
@@ -44,8 +43,6 @@ class FileHandling {
         }finally {
 
         }
-
-        
 
     }
 }
