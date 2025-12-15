@@ -1,5 +1,4 @@
-public class Student 
-{
+public class Student {
  // Declare data members as private.	
     private String name;
     private int rollNo;
@@ -11,16 +10,16 @@ public class Student
     }
  // Declare getter and setter methods for each private variable.
     public String getName() {
-	return name; 
+		return name; 
     }
     public int getRollNo() {
-	return rollNo; 
+		return rollNo; 
     } 
     public void setName(String name) {
-	this.name = name;
+		this.name = name;
      }
     public void setRollNo(int rollNo) {
-	 this.rollNo = rollNo;
+	 	this.rollNo = rollNo;
     }
  }
 
