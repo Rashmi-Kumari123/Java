@@ -22,16 +22,14 @@ public class ArrayListCopyExample {
 
         // Copy colors list to alphabets list
         
-        // Collections.copy(alphabets, colors);
-        // Collections.shuffle(alphabets);
+        Collections.copy(alphabets, colors);
+        Collections.shuffle(alphabets);
         Collections.swap(colors, 0, 2);
-        // colors.subList(0, 3);
+        colors.subList(0, 3);
         System.out.println(colors);
         
-
-
         // Print updated lists
-        // System.out.println("Updated colors list: " + colors);
-        // System.out.println("Updated alphabets list: " + alphabets);
+        System.out.println("Updated colors list: " + colors);
+        System.out.println("Updated alphabets list: " + alphabets);
     }
 }
