@@ -11,7 +11,6 @@ public class Matrix {
         this.columns = columns;
         this.matrix = new int[rows][columns];
     }
-
     // Method to create the matrix
     public void createMatrix() {
         Scanner scanner = new Scanner(System.in);
@@ -24,7 +23,6 @@ public class Matrix {
             }
         }
     }
-
     // Method to print the matrix
     public void printMatrix() {
         System.out.println("The matrix is:");
@@ -39,16 +37,13 @@ public class Matrix {
     // Main method for testing
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter the number of rows: ");
         int rows = scanner.nextInt();
         System.out.print("Enter the number of columns: ");
         int columns = scanner.nextInt();
-
         Matrix matrix = new Matrix(rows, columns);
         matrix.createMatrix();
         matrix.printMatrix();
-
         scanner.close();
     }
 }
