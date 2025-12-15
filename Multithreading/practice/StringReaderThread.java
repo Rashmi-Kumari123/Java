@@ -17,6 +17,6 @@ public class StringReaderThread implements Runnable{
             int endIndex = Math.min(startIndex + 3, inputString.length());
             String substring = inputString.substring(startIndex, endIndex);
             System.out.println(threadName + " reading: " + substring);
-
-}}
+        }
+    }
 }
