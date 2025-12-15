@@ -1,7 +1,6 @@
 //  Static keyword checking
 public class Counter {
     private static int count = 0;
-
     public Counter(){
         count++;
         System.out.println("constructorCount" +  " " + count);
