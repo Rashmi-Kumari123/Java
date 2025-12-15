@@ -1,6 +1,5 @@
 import java.util.*;
-
-
+ 
 public class ColorSearch {
     public static void main(String[] args) {
         
@@ -8,7 +7,7 @@ public class ColorSearch {
         colors.add("red");
         colors.add("green");
         colors.add("orange");
-        colors.add("white");
+        colors.add("white");  
         colors.add("Black");
 
         colors.add(0, "blue");
