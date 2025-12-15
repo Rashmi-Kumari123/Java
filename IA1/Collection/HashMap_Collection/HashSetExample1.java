@@ -11,7 +11,6 @@ public class HashSetExample1 {
         set.add("Fourth");
         set.add("Fifth");
         
-        
         System.out.println("HashSet contents: " + set);
         
         // You can also iterate through the set
