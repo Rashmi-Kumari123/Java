@@ -8,21 +8,18 @@ public class MyTest {
         try {
             t1.join();
         } catch (InterruptedException e) {
-            
             e.printStackTrace();
         }
         t2.start();
         try {
             t2.join();
         } catch (InterruptedException e) {
-            
             e.printStackTrace();
         }
         t3.start();
         try {
             t3.join();
         } catch (InterruptedException e) {
-            
             e.printStackTrace();
         }
     }
