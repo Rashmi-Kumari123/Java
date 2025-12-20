@@ -1,6 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
-
+//Problem statement
+//Build a CLI game in Java where the user guesses a randomly generated number within a limited number of attempts.
 public class NumberGuessingGame {
 
     public static void main(String[] args) {
